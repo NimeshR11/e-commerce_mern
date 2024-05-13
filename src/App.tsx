@@ -1,11 +1,12 @@
 import './App.css'
+import Header from './common/Header'
 
 function App() {
 
   return (
-    <div className='text-3xl font-bold underline'>
-      Welcome to E-commerce Site
-    </div>
+    <main className='min-h-screen'>
+      <Header/>
+    </main>
   )
 }
 
