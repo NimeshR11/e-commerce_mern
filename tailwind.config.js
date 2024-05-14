@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
     fontSize: {
@@ -49,13 +51,13 @@ export default {
       "800": "800",
       "900": "900",
     },
-
     colors: {
       "lightblue-100": "#AFDDE5",
       "lightblue-200": "#0FA4AF",
       "lightblue-300": "#964734",
       "lightblue-400": "#024950",
       "lightblue-500": "#003135",
+      "transparent": "transparent"
     },
   },
   plugins: [],
